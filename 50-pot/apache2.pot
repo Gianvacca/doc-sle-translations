@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:30+0200\n"
+"POT-Creation-Date: 2018-11-05 10:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/apache2.xml:12
 msgid "According to the survey from <link xlink:href=\"http://www.netcraft.com/\"/>, the Apache HTTP Server (Apache) is the world's most widely-used Web server. Developed by the Apache Software Foundation (<link xlink:href=\"http://www.apache.org/\"/>), it is available for most operating systems. <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE® Leap</phrase><phrase os=\"sles\">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux Enterprise Desktop</phrase></phrase> includes Apache version 2.4. In this chapter, learn how to install, configure and set up a Web server; how to use SSL, CGI, and additional modules; and how to troubleshoot Apache."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/apache2.xml:24
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title

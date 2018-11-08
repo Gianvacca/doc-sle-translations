@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:22+0200\n"
+"POT-Creation-Date: 2018-11-05 10:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/deployment_yast_installer.xml:14
 msgid "This chapter describes the procedure in which the data for <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> is copied to the target device. Some basic configuration parameters for the newly installed system are set during the procedure. A graphical user interface will guide you through the installation. <phrase os=\"sles;sled\">The procedure described in the following also applies to remote installation procedures as described in <xref linkend=\"cha.remote_installation\"/>.</phrase> The text mode installation has the same steps and only looks different. <phrase os=\"sles;osuse\">For information about performing non-interactive automated installations, see <xref linkend=\"book.autoyast\"/>.</phrase>"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/deployment_yast_installer.xml:31
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para

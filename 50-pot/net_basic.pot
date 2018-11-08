@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:19+0200\n"
+"POT-Creation-Date: 2018-11-05 10:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/net_basic.xml:12
 msgid "Linux offers the necessary networking tools and features for integration into all types of network structures. Network access using a network card can be configured with YaST. Manual configuration is also possible. In this chapter only the fundamental mechanisms and the relevant network configuration files are covered."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/net_basic.xml:22
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para

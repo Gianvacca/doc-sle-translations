@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-15 19:49+0200\n"
+"POT-Creation-Date: 2018-11-05 10:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,11 +37,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/art_sle_modules_quick.xml:19
 msgid "This Quick Start gives you an overview of modules and extensions available for the SUSE Linux Enterprise family. Learn about purpose and features and how to manage them."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/art_sle_modules_quick.xml:25
-msgid "no"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -570,3 +565,116 @@ msgstr ""
 #: xml/art_sle_modules_quick.xml:940
 msgid "Group the search results by modules rather than by package name."
 msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/art_sle_modules_quick.xml:946
+msgid "<option>-d</option>, <option>--details</option>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/art_sle_modules_quick.xml:950
+msgid "Additionally lists version numbers and repositories containing the package."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/art_sle_modules_quick.xml:957
+msgid "<option>--xmlout</option>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/art_sle_modules_quick.xml:959
+msgid "Generate XML output."
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/art_sle_modules_quick.xml:965
+msgid "The following shows a few examples on how to use <command>zypper search-packages</command>."
+msgstr ""
+
+#. (itstool) path: example/title
+#: xml/art_sle_modules_quick.xml:970
+msgid "Simple Search"
+msgstr ""
+
+#. (itstool) path: example/para
+#: xml/art_sle_modules_quick.xml:971
+msgid "The following command searches for the packages <package>nodejs</package> and <package>hawk</package>. The first one is available in the <literal>Web and Scripting</literal> module, while the second one is part of the SUSE Linux Enterprise High Availability Extension Extension. Both packages are not yet installed:"
+msgstr ""
+
+#. (itstool) path: example/screen
+#: xml/art_sle_modules_quick.xml:977
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>zypper search-packages hawk2 nodejs\n"
+"Following packages were found in following modules:\n"
+"\n"
+"Package        Module or Repository\n"
+"-------------  --------------------------------------------------------------------\n"
+"hawk2          SUSE Linux Enterprise High Availability Extension (sle-ha/15/x86_64)\n"
+"nodejs8        Web and Scripting Module (sle-module-web-scripting/15/x86_64)\n"
+"nodejs8-devel  Web and Scripting Module (sle-module-web-scripting/15/x86_64)\n"
+"nodejs8-docs   Web and Scripting Module (sle-module-web-scripting/15/x86_64)\n"
+"nodejs-common  Web and Scripting Module (sle-module-web-scripting/15/x86_64)\n"
+"\n"
+"To activate the respective module or product, use SUSEConnect --product.\n"
+"Use SUSEConnect --help for more details."
+msgstr ""
+
+#. (itstool) path: example/title
+#: xml/art_sle_modules_quick.xml:992
+msgid "Searching for Exact Matches"
+msgstr ""
+
+#. (itstool) path: example/para
+#: xml/art_sle_modules_quick.xml:993
+msgid "If you know the exact package names, you can narrow the results down to exact matches by using the option <option>-x</option>:"
+msgstr ""
+
+#. (itstool) path: example/screen
+#: xml/art_sle_modules_quick.xml:997
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>zypper search-packages -x hawk2 nodejs8\n"
+"Following packages were found in following modules:\n"
+"\n"
+"Package  Module or Repository\n"
+"-------  --------------------------------------------------------------------\n"
+"hawk2    SUSE Linux Enterprise High Availability Extension (sle-ha/15/x86_64)\n"
+"nodejs8  Web and Scripting Module (sle-module-web-scripting/15/x86_64)\n"
+"\n"
+"To activate the respective module or product, use SUSEConnect --product.\n"
+"Use SUSEConnect --help for more details."
+msgstr ""
+
+#. (itstool) path: example/title
+#: xml/art_sle_modules_quick.xml:1009
+msgid "Searching for Packages That Are Already Installed or Available"
+msgstr ""
+
+#. (itstool) path: example/para
+#: xml/art_sle_modules_quick.xml:1012
+msgid "If you search for packages that are already installed or are available in one of the modules that are available on your system, the search results differ. In the following example, the package <package>vim</package> is already installed. The package <package>emacs</package> is not installed, but is available for installation without having to add a module."
+msgstr ""
+
+#. (itstool) path: example/screen
+#: xml/art_sle_modules_quick.xml:1019
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>zypper search-packages -x vim\n"
+"Following packages were found in following modules:\n"
+"\n"
+"Package  Module or Repository\n"
+"-------  ---------------------------------------------------\n"
+"vim      Basesystem Module (sle-module-basesystem/15/x86_64)\n"
+"vim      Installed\n"
+"vim      Available\n"
+"\n"
+"<prompt>tux &gt; </prompt>zypper search-packages -x emacs\n"
+"Following packages were found in following modules:\n"
+"\n"
+"Package  Module or Repository\n"
+"-------  ---------------------------------------------------\n"
+"emacs    Basesystem Module (sle-module-basesystem/15/x86_64)\n"
+"emacs    Available"
+msgstr ""
+

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:21+0200\n"
+"POT-Creation-Date: 2018-11-05 10:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/grub2.xml:12
 msgid "This chapter describes how to configure GRUB 2, the boot loader used in <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE® Leap</phrase><phrase os=\"sles\">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux Enterprise Desktop</phrase></phrase>. It is the successor to the traditional GRUB boot loader—now called <quote>GRUB Legacy</quote>. <phrase os=\"sled;sles\">GRUB 2 has been the default boot loader in <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE® Leap</phrase><phrase os=\"sles\">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux Enterprise Desktop</phrase></phrase> since version 12.</phrase> A YaST module is available for configuring the most important settings. The boot procedure as a whole is outlined in <xref linkend=\"cha.boot\"/>. For details on Secure Boot support for UEFI machines, see <xref linkend=\"cha.uefi\"/>."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/grub2.xml:25
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
